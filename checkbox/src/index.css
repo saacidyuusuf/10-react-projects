@@ -1,0 +1,38 @@
+
+
+.tableHaye{
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: start;
+  width: 70%;
+  margin: auto;
+  border-radius: 12px;
+}
+
+
+.checkthem{
+  display: flex;
+  gap: 1rem;
+}
+
+.nameHaye{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tablename{
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+
+.total span{
+  background-color: brown;
+  border-radius: 5px;
+  padding: 2px 6px;
+}

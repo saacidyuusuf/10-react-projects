@@ -1,0 +1,101 @@
+.haye {
+  background-color: black;
+  color: white;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  border-radius: 12px;
+}
+.testimonial {
+  position: relative;
+  display: flex;
+}
+
+@media (max-width: 900px) {
+  .testimonial {
+    flex-wrap: wrap;
+  }
+}
+
+.testiHaye {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.wrap {
+  display: flex;
+  justify-content: left;
+  align-items: start;
+}
+
+.testiHaye p {
+  width: 40%;
+  text-align: center;
+}
+
+.testiHaye img {
+  border-radius: 20%;
+  aspect-ratio: 2/2;
+}
+
+.testiHaye h1 {
+  margin: 2rem 0.4rem;
+}
+
+.arrow {
+  font-size: 3rem;
+}
+
+.right {
+  position: absolute;
+  right: 28%;
+  top: 20%;
+}
+
+.left {
+  position: absolute;
+  left: 28%;
+  top: 20%;
+}
+
+.whites {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whites button {
+  border-radius: 12px;
+  padding: 8px;
+}
+
+.gray {
+  background-color: gray;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .left {
+    left: 15%;
+    top: 20%;
+  }
+  .right {
+    right: 15%;
+    top: 20%;
+  }
+  .haye{
+    width: 80%;
+  }
+
+  .testiHaye p {
+    width: 60%;
+    text-align: center;
+  }
+ 
+}

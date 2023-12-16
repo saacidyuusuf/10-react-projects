@@ -1,0 +1,42 @@
+.todolist{
+    background-color: black ;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    color: white;
+    padding: 1rem 0;
+    margin-left: 1rem 0;
+    border-radius: 12px;
+}
+
+.inputhaye{
+    margin-left: 1rem;
+}
+
+.inputhaye input{
+    display: block;
+    border-radius: 10px;
+    padding: 4px 2px;
+    width: 80%;
+    margin-bottom: 0.30rem;
+}
+
+.added{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.added h3{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.added button{
+    width: 20%;
+}
