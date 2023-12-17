@@ -1,0 +1,111 @@
+.navhaye {
+  width: 100%;
+  margin-top: 0;
+}
+
+.nav {
+  background-color: black;
+  color: white;
+  display: flex;
+  margin: 0;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0.2rem 1rem;
+}
+
+.nav li {
+  list-style-type: none;
+}
+
+.nav li a {
+  margin: 0.2rem 1rem;
+  list-style: none;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+}
+
+.wiki {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  will-change: 70%;
+  margin: auto;
+}
+
+.wiki img {
+  width: 70%;
+  margin-top: 1.2rem;
+  border-radius: 12px;
+}
+
+.wiki label{
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    text-align: left;
+}
+
+.wiki input{
+  display: block;
+  justify-content: left;
+  width: 70%;
+  border-radius: 10px;
+  border: none;
+  padding: 8px 12px;
+  background-color: #efef;
+}
+
+@media (min-width: 900px) {
+  .wiki img {
+    width: 40%;
+  }
+  .wiki input{
+    width: 45%;
+  }
+}
+
+.searchvalues{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: black;
+    color: white;
+    width: 95%;
+    gap: 3rem;
+    margin: auto;
+}
+
+
+.searchvalues{
+    margin-top: 1.5rem;
+    border-radius: 0.30rem;
+}
+
+.search{
+    padding: 0.40rem;
+}
+
+.search h1{
+    border-bottom: 1px solid gray;
+}
+
+
+.noResult{
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
